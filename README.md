@@ -1,3 +1,24 @@
+# Woof! Woof!
+
+Create a React webapp that will present a gallery of 6 random dog images from https://random.dog/woof.json. Allow user to choose one (or more) to favorite (use local storage).
+
+If user doesn’t like any of the six, use a refresh/next button to get 6 more. Repeat.
+There should be two endpoints.
+
+/ - described above
+
+/favorites - displays all the favorite dogs
+
+# Running with docker
+
+To build the project run the following command:
+docker build -t favorite-dogs .
+
+To run the project locally, enter the following command:
+docker run favorite-dogs
+
+On the browser, enter http://localhost:3000
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
